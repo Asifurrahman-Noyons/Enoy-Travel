@@ -21,6 +21,13 @@ nav{
 main{
     margin: 0 5%;
 }
+p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.7vw;
+    line-height: 1.6em;
+}
+
+
 .logo{
     display: flex;
     align-items: center;
@@ -90,7 +97,7 @@ main{
     font-size: 1em;
     margin: 0 15vw;
     margin-top: 2vw;
-    font-size: 1em;
+    font-size: 1.6vw;
     color: #FFF;
 }
 
@@ -147,11 +154,7 @@ main{
     color: #131318;
     font-size: 3vw;   
 }
-.popular-tours p{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 1.7vw;
-    line-height: 1.6em;   
-}
+
 .popular-tours li{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1.7vw; 
@@ -179,11 +182,7 @@ main{
     line-height: 2em;
 }
 
-.destination-text p{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 0.9em;
-    line-height: 26px; 
-}
+
 .img-gallary-first{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -254,10 +253,46 @@ main{
 /* Why choice section styles */
 
 .why-choose{
-    margin-top: 2em;
+    margin-top: 5em;
+}
+.why-choose-top{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.why-choose-middle{
+    display: flex;
+    gap: 1.6em;
+}
+.why-choose-left{
+    width: 50%;
+    height: 284px;
+    padding:2em 2em 0 2em;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);    
 }
 
 
+.why-choose-right{
+    width: 50%;
+    height: 284px;
+    padding:2em 2em 0 2em;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);    
+}
+
+.why-choose-bottom{
+    width: 50%;
+    height: 284px;
+    padding:2em 2em 0 2em;
+    border-radius: 16px;
+    margin: 1.6em auto;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);    
+}
 
 @media screen and (max-width:576px) {
     .logo img{
