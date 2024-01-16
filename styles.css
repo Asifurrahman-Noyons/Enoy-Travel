@@ -294,6 +294,9 @@ p{
     background: rgba(233, 68, 68, 0.05);    
 }
 
+
+
+
 @media screen and (max-width:576px) {
     .logo img{
         width: 28.724px;
