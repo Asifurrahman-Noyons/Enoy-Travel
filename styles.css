@@ -28,6 +28,7 @@ p{
 }
 
 
+
 .logo{
     display: flex;
     align-items: center;
@@ -329,7 +330,8 @@ p{
 .dis-box-top {
     display: flex;
     justify-content: space-around; 
-    margin: auto 0;
+    justify-content: center;
+    align-items: center;
 }
 .dis-box-top div{
     margin-right: 1em;
@@ -363,6 +365,167 @@ p{
     justify-content: start;
     padding-left: 4%;
 }
+
+.see-all-pack-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.see-all-pack-btn button {
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1em;
+    width: 170px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.perfect-place{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.perfect-place-text p{
+    font-size: 1em;
+}
+.perfect-place-text button{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1em;
+    width: 142px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1em;
+}
+.perfect-place-text li{
+    font-size: 1em;
+    line-height: 1.7em;
+}
+video {
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.news-letter{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    grid-gap: 5em;
+    margin-top: 5em;
+}
+
+.news-letter-form{
+    display: flex;
+    flex-direction: column;
+}
+.news-letter-form input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    margin-top: 1em;
+    width: 96%;
+    height: 52px;
+    padding-left: 1em;
+}
+.news-letter-form button{
+    margin-top: 1em;
+    width: 100%;
+    height: 52px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.news-letter-right{
+    background-image: url(Images/img4.png);
+    border-radius: 8px;
+    width: 100%;
+    height: 422px;
+    background-size: cover;
+    position: relative;
+}
+
+.news-letter-discount {
+    width: 324px;
+    height: 140px;
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: scale(0.5) rotate(-19.628deg) translateY(50%) translateX(40%);
+}
+
+.news-letter-discount h3{
+    color: #FFF;
+    font-size: 24px;
+}
+.news-letter-discount h1{
+    color: #FFF;
+    font-size: 32px;
+}
+
+/* Footer ========= */
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 6em; 
+    height: 502px;
+}
+
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo h1{
+    font-size: 32px;   
+}
+.footer-logo img{
+    width: 40px;
+    height: 46.673px;
+    margin-right: 1em;   
+}
+.footer-info p{
+    text-align: center;
+    width: 60%;
+    font-size: 1em; 
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.icon li{
+    list-style: none;
+    margin-right: 1em;
+}
+.icon i{
+    color: black;
+}
+.footer-info p{
+    margin-top: 3em;
+}
+
 
 
 @media screen and (max-width:576px) {
@@ -428,13 +591,74 @@ p{
         width: 100%;
     }
 
+
 .img-gallary-first,
 .img-gallary-second,
 .img-gallary-third{
     grid-template-columns: 1fr;
 }
-    
-    
+   
+.destination-container p{
+    font-size: 1em;
+}
+.popular-tours{
+    overflow: hidden;
+    margin: 0;
+}
+.why-choose-top h1{
+    font-size: 1.5em;
+}
+.why-choose p{
+    font-size: 0.8em;
+}
+.why-choose-middle{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-choose-left{
+    width: 85%;
+
+}
+.why-choose-right{
+    width: 85%;
+}
+.why-choose-bottom{
+    width: 85%;
+   
+}
+.discount-title h1{
+    font-size: 1.5em;
+}
+.discount-title p{
+    font-size: 1em;
+}
+.discount-box-1{
+    width: 90%;
+    margin-right: 10%;
+}
+.perfect-place{
+    grid-template-columns: 1fr;
+}
+.news-letter{
+    grid-template-columns: 1fr;    
+}
+.discount-banner-1{
+    width: 100%;
+}
+#discount-banner-2{
+    width: 100%;
+}
+.news-letter-form p{
+    font-size: 1em;
+}
+.discount-box-1{
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+
 }
 
 @media screen and (min-width:576px) and (max-width:786px) {
