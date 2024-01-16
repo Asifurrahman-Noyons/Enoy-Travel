@@ -433,13 +433,16 @@ video {
 .news-letter{
     display: grid;
     grid-template-columns: 1fr 1.7fr;
-    grid-gap: 5em;
+    grid-gap: 2em;
     margin-top: 5em;
 }
 
 .news-letter-form{
     display: flex;
     flex-direction: column;
+    border: 1px solid #FF5400;
+    border-radius: 8px;
+    padding:1.5em;
 }
 .news-letter-form input{
     border-radius: 8px;
@@ -857,4 +860,9 @@ video {
 .why-choose-top p{
     font-size: 1em;
 }
+
+#review-box-3 {
+  display: none;
+}
+
 }
