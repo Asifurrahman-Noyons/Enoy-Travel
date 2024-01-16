@@ -296,6 +296,74 @@ p{
 
 
 
+.discount-title{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.discount-banner-1{
+    width: 100%;
+    height: 500px;  
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto 0;
+    margin-top: 3em;
+    background-size: cover;  
+    border-radius: 16px;
+    background: url(Images/dis-ban-1.png), lightgray 50% / cover no-repeat; 
+}
+
+.discount-box-1{
+    width: 50%;
+    height: 390px;
+    border-radius: 16px;
+    margin-right: 4%;
+    padding: 4% 4% 0 4%;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);   
+
+}
+.dis-box-top {
+    display: flex;
+    justify-content: space-around; 
+    margin: auto 0;
+}
+.dis-box-top div{
+    margin-right: 1em;
+}
+.dis-box-top img{
+    width: 24px;
+    height: 24px;
+   
+}
+.discount-banner-1 h2{
+    color: #FF5400;
+    font-size: 20px;
+}
+.discount-banner-1 button{
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    width: 150px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1em;
+}
+.dis-box-top span{
+    color: #5A5A5D;
+    font-size: 0.8em;
+}
+
+#discount-banner-2{
+    background: url(Images/dis-ban-1.png), lightgray 50% / cover no-repeat; 
+    justify-content: start;
+    padding-left: 4%;
+}
+
 
 @media screen and (max-width:576px) {
     .logo img{
