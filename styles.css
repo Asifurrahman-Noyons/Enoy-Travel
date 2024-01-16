@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Styles ================== */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5%;
+}
+
+main{
+    margin: 0 5%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo img{
+    width: 3em;
+    height: auto;
+    margin-right: 1em;
+}
+
+.logo h1{
+    color: #131318;
+    font-size: 2.5vw;
+}
+
+.logo span{
+    color:#FF5400;
+    
+}
+
+.menu{
+    display: flex;
+    margin: auto 0;
+    max-width: 100%;
+}
+
+.menu li{
+    list-style: none;
+    margin-right: 1.5em;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: var(--Dark-02, #424247);
+}
+
+.menu i{
+    display: none;
+}
+
+
+/* Banner Styles */
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/banner.png");
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title h1{
+    font-size: 4vw;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+.title p{
+    font-size: 1em;
+    margin: 0 15vw;
+    margin-top: 2vw;
+    font-size: 1em;
+    color: #FFF;
+}
+
+.button-group {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    width: 75% ;
+    margin: 0 auto;
+    margin-top: 3em;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.where, .when, .select, .find {
+    flex-grow: 1;
+    width: 1fr;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    justify-content: space-between;
+}
+.find{
+    background: #FF5400;
+    color: #FFF;
+}
+
+/* Popular Tours styles */
+.popular-tours{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 6.3em 0;
+}
+
+.popular-tours-image{
+    width: 60vw;
+}
+.popular-tours-image img{
+    width: 100%;
+    margin: 2.5em 0 0 0;
+}
+.popular-tours h1{
+    color: #131318;
+    font-size: 3vw;   
+}
+.popular-tours p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.7vw;
+    line-height: 1.6em;   
+}
+.popular-tours li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.7vw; 
+    height: 4em;
+    line-height: 1.5em;
+}
+.read-more{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    margin-top: 0.5em;
+}
+
+
+@media screen and (max-width:576px) {
+    .logo img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .logo h1{
+        font-size: 3vw;
+    }
+    .menu li{
+        display: none;
+    }
+    .menu i{
+        display: inline;
+        margin-right: 1em;
+    }
+
+    .banner{
+        height: 493px;
+        background-position: center center;
+    }
+
+    .banner h1{
+        font-size: 22px;
+    }
+
+    .banner p{
+        font-size: 14px;
+        margin: 1em 4%;
+    }
+
+    .button-group{
+        flex-direction: column;
+        margin-top: 0;  
+    }
+    .where, .when, .select, .find {
+        width: 100%;     
+    }
+    .find {
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .popular-tours h1{
+        font-size: 20px;
+    }
+    .popular-tours{
+        flex-direction: column;
+        padding-top: 0;
+        overflow: hidden;
+    }
+    .popular-tours p{
+        font-size: 14px;
+    }
+    .popular-tours li{
+        height: 5em;
+        margin-left: 1em;
+        font-size: 14px;
+    }
+
+    .popular-tours-image{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:786px) {
+    .logo img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .logo h1{
+        font-size: 21px;
+    }
+    .menu li{
+        display: none;
+    }
+    .menu i{
+        display: inline;
+        margin-right: 1em;
+    }
+
+    .banner{
+        height: 493px;
+        background-position: center center;
+        flex-direction: row;
+        
+    }
+
+    .banner h1{
+        font-size: 22px;
+    }
+
+    .banner p{
+        font-size: 14px;
+        margin: 1em 4%;
+    }
+
+    .button-group{
+        flex-direction: column;
+        margin-top: 0;  
+        margin-right: 5%;
+    }
+    .where, .when, .select, .find {
+        width: 100%;     
+    }
+    .find {
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .popular-tours h1{
+        font-size: 20px;
+    }
+    .popular-tours{
+        flex-direction: column;
+        padding-top: 0;
+        overflow: hidden;
+    }
+    .popular-tours p{
+        font-size: 14px;
+    }
+    .popular-tours li{
+        height: 5em;
+        margin-left: 1em;
+        font-size: 14px;
+    }
+
+    .popular-tours-image{
+        width: 100%;
+    }
+}
