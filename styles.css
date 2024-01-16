@@ -303,26 +303,29 @@ p{
     width: 60%;
 }
 
-.discount-banner-1{
+.discount-banner-1 {
     display: grid;
-    height: 500px;  
+    height: 500px;
     grid-template-columns: 1fr;
     align-items: center;
-    margin: auto 0;
+    margin: auto;
     margin-top: 3em;
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
     border-radius: 16px;
-    background: url(Images/dis-ban-1.png), lightgray 50% / cover no-repeat; 
+    background: url(Images/dis-ban-1.png), lightgray 50% / cover no-repeat;
 }
 
+#discount-banner-right{
+    direction: rtl;
+}
 #discount-banner-2{
     background: url(Images/dis-ban-1.png), lightgray 50% / cover no-repeat; 
     justify-content: start;
     display: grid;
     height: 500px;  
     grid-template-columns: 1fr;
-    padding-left: 4%;
+    padding-left: 4%; 
 }
 
 .discount-box-1{
