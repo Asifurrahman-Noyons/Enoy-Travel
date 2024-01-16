@@ -318,6 +318,8 @@ p{
 
 #discount-banner-right{
     direction: rtl;
+    justify-content: start;
+    text-align: left;
 }
 #discount-banner-2{
     background: url(Images/dis-ban-1.png), lightgray 50% / cover no-repeat; 
