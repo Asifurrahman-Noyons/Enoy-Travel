@@ -542,7 +542,37 @@ video {
     margin-top: 3em;
 }
 
+.review-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
 
+.review-top p{
+  font-size: 1em;
+}
+
+.review-box{
+  margin: 1em 0;
+  padding: 1.5em;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(255, 165, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+.review-top img {
+  widows: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+}
+.client-say p{
+  font-size: 1.3em;
+}
+
+.review-bottom i{
+  color: gold;
+}
 
 @media screen and (max-width:576px) {
     .logo img{
@@ -728,6 +758,17 @@ video {
     font-size: 1em;
 }
 
+.review-container{
+  grid-template-columns: 1fr;
+}
+
+#review-box-2,
+#review-box-3 {
+  display: none;
+}
+.client-say p{
+  font-size: 1em;
+}
 }
 
 @media screen and (min-width:576px) and (max-width:786px) {
